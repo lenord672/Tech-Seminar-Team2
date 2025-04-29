@@ -85,10 +85,10 @@ MonoBehaviour:
   active: 1
   type:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.867
   response:
     m_OverrideState: 0
     m_Value: 0.643
@@ -128,22 +128,22 @@ MonoBehaviour:
   active: 1
   rotation:
     m_OverrideState: 1
-    m_Value: 329
+    m_Value: 107
   skyIntensityMode:
     m_OverrideState: 0
     m_Value: 0
   exposure:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 12.77
   multiplier:
     m_OverrideState: 0
     m_Value: 1
   upperHemisphereLuxValue:
     m_OverrideState: 1
-    m_Value: 3.9442606
+    m_Value: 4.004809
   upperHemisphereLuxColor:
     m_OverrideState: 1
-    m_Value: {x: 0.40971893, y: 0.4491347, z: 0.5}
+    m_Value: {x: 0.5, y: 0.45009986, z: 0.23431747}
   desiredLuxValue:
     m_OverrideState: 0
     m_Value: 20000
@@ -158,9 +158,9 @@ MonoBehaviour:
     m_Value: 0
   hdriSky:
     m_OverrideState: 1
-    m_Value: {fileID: 8900000, guid: 30786c8627d39f54c99b03a35d7271a7, type: 3}
+    m_Value: {fileID: 8900000, guid: e140efcac1c19b94c96272fc2c577de6, type: 3}
   distortionMode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   flowmap:
     m_OverrideState: 0
@@ -184,10 +184,10 @@ MonoBehaviour:
       multiplyValue: 1
   sunInitialRotation:
     m_OverrideState: 0
-    m_Value: -329
+    m_Value: -Infinity
   lockSun:
-    m_OverrideState: 1
-    m_Value: 1
+    m_OverrideState: 0
+    m_Value: 0
   enableBackplate:
     m_OverrideState: 0
     m_Value: 0
@@ -255,19 +255,19 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 0.34
+    m_Value: 0.86
   contrast:
     m_OverrideState: 1
-    m_Value: 15
+    m_Value: -28.7
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 0.75590354, g: 0.83857137, b: 0.8805031, a: 1}
+    m_Value: {r: 0.6497419, g: 0.6802932, b: 0.8773585, a: 1}
   hueShift:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 0.9
   saturation:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: -39.3
 --- !u!114 &7410906013255688673
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -292,10 +292,10 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 14.069466
+    m_Value: 9.757226
   compensation:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: -1.09
   limitMin:
     m_OverrideState: 0
     m_Value: -1
